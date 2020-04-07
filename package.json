@@ -1,0 +1,21 @@
+{
+  "name": "ts-express-react-ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.4",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
