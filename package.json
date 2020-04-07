@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.client.config.js --mode production && webpack --config webpack.server.config.js --mode production",
+    "build:dev": "webpack --config webpack.client.config.js --mode development && webpack --config webpack.server.config.js --mode development",
+    "start": "node dist/js/server.js"
+  },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "source-map-loader": "^0.2.4",
